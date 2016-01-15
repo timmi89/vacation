@@ -1,13 +1,13 @@
 $(function(){
   var count = 0;
   $('#submit').click(function(event){
-    var science = $('select#scienceExperiment').val();
+    var adventure = $('select#adventure').val();
     var universe = $('select#universe').val();
     var conflict = $('select#conflict').val();
     var lifePath = $('select#lifePath').val();
     var money = $('select#money').val();
 
-        if(science === "yes") {
+        if(adventure === "yes") {
           $(count += 2);
           } else {
           (count);
