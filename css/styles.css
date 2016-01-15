@@ -15,7 +15,7 @@ span {
   font-style: italic;
 }
 body{
-  background-color: #80aaff;
+  background-image: url(http://www.noupe.com/wp-content/uploads/2011/12/seamlesspattern46.jpg);
 }
 #machu-pic {
   float: left;
@@ -52,3 +52,11 @@ body{
 .spaceTime p {
   padding: 50px;
 }
+p {
+ padding: 10px;
+  background-color:#fff2e5}
+}
+h2 {
+    padding: 10px;
+     background-color: #d9e6f2;
+  }
