@@ -2,10 +2,10 @@ $(function(){
   var count = 0;
   $('#submit').click(function(event){
     var adventure = $('select#adventure').val();
-    var universe = $('select#universe').val();
-    var conflict = $('select#conflict').val();
-    var lifePath = $('select#lifePath').val();
-    var money = $('select#money').val();
+    var mobility = $('select#mobility').val();
+    var perfectDay = $('select#perfectDay').val();
+    var reaction = $('select#reaction').val();
+    var character = $('select#character').val();
 
         if(adventure === "yes") {
           $(count += 2);
@@ -13,43 +13,43 @@ $(function(){
           (count);
           }
 
-        if(universe === "yes") {
+        if(mobility === "yes") {
           $(count +=2);
           } else {
           (count);
           }
 
-        if(conflict === "flipp") {
+        if(perfectDay === "machuPicchu") {
           $(count += 1);
-        } else if(conflict === "summer") {
+        } else if(perfectDay === "lasVegas") {
           $(count += 2);
-        } else if (conflict === "unity") {
+        } else if (perfectDay === "badlands") {
           $(count += 3);
-        } else if (conflict === "slippery") {
+        } else if (perfectDay === "berlin") {
           $(count += 4);
           } else {
           $(count += 5);
         }
 
-        if(lifePath === "flipp") {
+        if(reaction === "machuPicchu") {
           $(count += 1);
-        } else if(lifePath === "summer") {
+        } else if(reaction === "lasVegas") {
           $(count += 2);
-        } else if (lifePath === "unity") {
+        } else if (reaction === "badlands") {
           $(count += 3);
-        } else if (lifePath === "slippery") {
+        } else if (reaction === "berlin") {
           $(count += 4);
           } else {
           $(count += 5);
         }
 
-        if(money === "flipp") {
+        if(character === "machuPicchu") {
           $(count += 1);
-        } else if(money === "summer") {
+        } else if(character === "lasVegas") {
           $(count += 2);
-        } else if (money === "unity") {
+        } else if (character === "badlands") {
           $(count += 3);
-        } else if (money === "slippery") {
+        } else if (character === "berlin") {
           $(count += 4);
           } else {
           $(count += 5);
@@ -59,15 +59,15 @@ $(function(){
         // $('#flipp').show();
         // console.log("hello and your count is " + count);
         if(count <= 4) {
-          $("#flipp").show();
+          $("#machuPicchu").show();
         } else if (count < 8 && count > 4) {
-          $("#summer").show();
+          $("#lasVegas").show();
         } else if (count >= 8 && count < 12) {
-          $('#unity').show();
+          $('#badlands').show();
         } else if (count < 16 && count >= 12) {
-          $('#slippery').show();
+          $('#berlin').show();
         } else {
-          $("#morty").show();
+          $("#spaceTime").show();
         }
 
         event.preventDefault();

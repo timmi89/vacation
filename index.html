@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
     <script src="js/jquery-1.12.0.js"></script>
@@ -25,44 +24,44 @@
            <label for="adventure">Do you crave adventure at every turn?</label>
             <select id="adventure">
               <option value="yes">yes</option>
-              <option value="no">No</option>
+              <option value="no">no</option>
             </select>
           </p>
           <p>
-             <label for="universe">do you or anyone in your group have mobility issues?</label>
-              <select id="universe">
+             <label for="mobility">do you or anyone in your group have mobility issues?</label>
+              <select id="mobility">
                 <option value="yes">yes</option>
                 <option value="no">no</option>
               </select>
           </p>
           <p>
-            <label for="conflict">which of these options most closely resembles your perfect day?</label>
-            <select id ="conflict">
-              <option value="flipp">climbing roughly 2,000 stairs, while learning about ancient cultures and their architecture.</option>
-              <option value="summer">sitting by the pool enjoying the sun by day, gambling, being dazzled by the bright lights, and possibly getting married, by night. </option>
-              <option value="unity">driving around under a wide-open sky, visiting historic national parks, and possibly making a stop somewhere off the beaten path.</option>
-              <option value="slippery">explore a city with a myriad of languages, foods, arts, and cultures.</option>
-              <option value="morty">forget about the laws of physics, and go on an adventure anywhere anytime!</option>
+            <label for="perfectDay">which of these options most closely resembles your perfect day?</label>
+            <select id ="perfectDay">
+              <option value="machuPicchu">climbing roughly 2,000 stairs, while learning about ancient cultures and their architecture.</option>
+              <option value="lasVegas">sitting by the pool enjoying the sun by day, gambling, being dazzled by the bright lights, and possibly getting married, by night. </option>
+              <option value="badlands">driving around under a wide-open sky, visiting historic national parks, and possibly making a stop somewhere off the  <span>slightly</span> beaten path.</option>
+              <option value="berlin">explore a city with a myriad of languages, foods, arts, and cultures.</option>
+              <option value="spaceTime">forget about the laws of physics, and go on an adventure anywhere anytime!</option>
             </select>
           </p>
           <p>
-            <label for="lifePath">while travelling, when confronted with a new or foreign situation, how do you react?</label>
-            <select id ="lifePath">
-              <option value="flipp">become very interested in the situation, but maybe try to throw it off a cliff.</option>
-              <option value="summer">if the odds of the situation being benefical to me are better than not, go with it, otherwise, leave and drink about it.</option>
-              <option value="unity">i don't particularly want to be confronted with many new situations.</option>
-              <option value="slippery">embrace it! why travel if not to explore the unknown?! </option>
-              <option value="morty">while that depends on many scientific variables, chances are i will absolutely enjoy the thrill of exploration!</option>
+            <label for="reaction">while travelling, when confronted with a new or foreign situation, how do you react?</label>
+            <select id ="reaction">
+              <option value="machuPicchu">become very interested in the situation, but maybe try to throw it off a cliff.</option>
+              <option value="lasVegas">if the odds of the situation being benefical to me are better than not, go with it, otherwise, leave and drink about it.</option>
+              <option value="badlands"> i'm ok with some small changes, but i don't particularly want to be confronted with many new situations.</option>
+              <option value="berlin">embrace it! why travel if not to explore the unknown?! </option>
+              <option value="spaceTime">while that depends on many scientific variables, chances are i will absolutely enjoy the thrill of exploration!</option>
             </select>
           </p>
           <p>
-            <label for="money">to which fictional character do you feel most akin?</label>
-            <select id ="money">
-              <option value="flipp">indiana jones, on a very mellow day.</option>
-              <option value="summer">rauol duke (johnny depp) in 'fear and lothing in las vegas'</option>
-              <option value="unity">clark gridswold, of 'national lampoon's family vacation'</option>
-              <option value="slippery">any hipster traveller</option>
-              <option value="morty">dr who</option>
+            <label for="character">to which fictional character do you feel most akin?</label>
+            <select id ="character">
+              <option value="machuPicchu">indiana jones, on a very mellow day.</option>
+              <option value="lasVegas">rauol duke (johnny depp) in 'fear and lothing in las vegas'</option>
+              <option value="badlands">clark gridswold, of 'national lampoon's family vacation'</option>
+              <option value="berlin">any hipster traveller</option>
+              <option value="spaceTime">dr who</option>
             </select>
           </p>
 
@@ -75,23 +74,23 @@
         <!-- ANSWERS!!!! -->
         <div class="results">
 
-          <div class="flipp" id="flipp">
+          <div class="machuPicchu" id="machuPicchu">
            <h2>You got...King Flippy Nips!</h2>
            <img src="img/flippynip.jpg">
           </div>
-          <div class="summer" id="summer">
+          <div class="lasVegas" id="lasVegas">
             <h2>You got...Ripped Summer!</h2>
             <img src="img/ripsum.jpg">
            </div>
-          <div class="unity" id="unity">
+          <div class="badlands" id="badlands">
             <h2>You got...Rick's Ex Unity!</h2>
             <img src="img/unity.jpg">
             </div>
-          <div class="slippery" id="slippery">
+          <div class="berlin" id="berlin">
             <h2>You got...Slippery Stair!</h2>
             <img src="img/slipstair.jpg">
           </div>
-          <div class="morty" id="morty">
+          <div class="spaceTime" id="spaceTime">
             <h2>You got...Cronenberged Morty!</h2>
             <img src="img/cronmort.png">
           </div>
