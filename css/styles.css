@@ -21,6 +21,34 @@ body{
   float: left;
   padding: 25px;
 }
-#machuPicchu p {
+#vegas-pic{
+  float:left;
+  padding: 25px;
+}
+#badlands-pic{
+  float:left;
+  padding: 30px;
+}
+#berlin-pic{
+  float :left;
+  padding: 25px;
+}
+#space-pic{
+  float:left;
+  padding :25px;
+}
+.machuPicchu p {
   padding-top: 50px;
+}
+.lasVegas p {
+  padding-top: 60px;
+}
+.badlands p{
+  padding-top: 70px;
+}
+.berlin p{
+  padding: 50px;
+}
+.spaceTime p {
+  padding: 50px;
 }
