@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+
+    <title>dream vacations</title>
+  </head>
+  <body>
+    <!-- HEADING/TITLE -->
+        <div class="container">
+        <img class="banner" src="img/banner.jpg">
+        <h1>Find Out Which Character You TOTALLY ALREADY ARE!</h1>
+        </div>
+        <!-- END HEADING -->
+        <!-- QUIZ AREA -->
+        <div class="container">
+        <div class="testArea">
+        <form id ="quiz" class="quizQuestions" type="select">
+          <p>
+           <label for="scienceExperiment">Do you find you identify with science experiments gone horribly wrong?</label>
+            <select id="scienceExperiment">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </p>
+          <p>
+             <label for="universe">Do you often find yourself contemplating your relative position in time and space?</label>
+              <select id="universe">
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+              </select>
+          </p>
+          <p>
+            <label for="conflict">When confronted with a conflict, you...</label>
+            <select id ="conflict">
+              <option value="flipp">Blame your son and take no responsibility.</option>
+              <option value="summer">Beat the crap out the conflict!</option>
+              <option value="unity">Assimilate it into your ever-expanding consciousness.</option>
+              <option value="slippery">Climb, roughly, 10,000 stairs.</option>
+              <option value="morty">Puke out your feet.</option>
+            </select>
+          </p>
+          <p>
+            <label for="lifePath">What do you want most out of life?</label>
+            <select id ="lifePath">
+              <option value="flipp">More power, more feeeeemales.</option>
+              <option value="summer">PHYSICAL DOMINATION.</option>
+              <option value="unity">To become ALL of life.</option>
+              <option value="slippery">A boob job. Or, you know a nice set of stairs and some schmeckles.</option>
+              <option value="morty">To ooze a little more...or maybe a few more tentacles. With some hard-suckin' suckers.</option>
+            </select>
+          </p>
+          <p>
+            <label for="money">You find $20 on the ground! You...</label>
+            <select id ="money">
+              <option value="flipp">Spend the crap out of it!</option>
+              <option value="summer">Destroy it! Money is for wimpy losers, who don't take what they want!</option>
+              <option value="unity">Leave it, as you have no need for material currency.</option>
+              <option value="slippery">Trade it for schmeckels.</option>
+              <option value="morty">Donate it to the less oozy unfortunates.</option>
+            </select>
+          </p>
+
+          <button id="submit" class="btn btn-danger btn-lg btn-block">FIND YOUR ANSWER!</button>
+        </form>
+        </div>
+        </div>
+        <!-- END TEST AREA -->
+
+        <!-- ANSWERS!!!! -->
+        <div class="results">
+
+          <div class="flipp" id="flipp">
+           <h2>You got...King Flippy Nips!</h2>
+           <img src="img/flippynip.jpg">
+          </div>
+          <div class="summer" id="summer">
+            <h2>You got...Ripped Summer!</h2>
+            <img src="img/ripsum.jpg">
+           </div>
+          <div class="unity" id="unity">
+            <h2>You got...Rick's Ex Unity!</h2>
+            <img src="img/unity.jpg">
+            </div>
+          <div class="slippery" id="slippery">
+            <h2>You got...Slippery Stair!</h2>
+            <img src="img/slipstair.jpg">
+          </div>
+          <div class="morty" id="morty">
+            <h2>You got...Cronenberged Morty!</h2>
+            <img src="img/cronmort.png">
+          </div>
+        </div>
+        <!-- END ANSWERS -->
+  </body>
+</html>
